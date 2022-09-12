@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/EditTextMonHoc"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/ButtonThem"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/EditTextMonHoc"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/red"
+        android:text="THÊM" />
+    <Button
+        android:id="@+id/ButtonCapNhat"
+        android:layout_below="@id/EditTextMonHoc"
+        android:background="@drawable/custom_button"
+        android:layout_toRightOf="@+id/ButtonThem"
+        android:layout_marginLeft="30dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="CẬP NHẬT"/>
+    <Button
+        android:id="@+id/ButtonXoa"
+        android:layout_below="@id/EditTextMonHoc"
+        android:background="@drawable/custom_button"
+        android:layout_toRightOf="@+id/ButtonCapNhat"
+        android:layout_marginLeft="30dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="XÓA"/>
+
+    <ListView
+        android:id="@+id/ListViewMonHoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ButtonThem" />
+</RelativeLayout>
