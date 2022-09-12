@@ -4,15 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bground"
+    android:background="@drawable/bground_2"
     tools:context=".MainActivity">
     <EditText
         android:id="@+id/EditTextMonHoc"
         android:layout_width="300dp"
         android:layout_height="50dp"
+        android:paddingLeft="10dp"
         android:hint="Name"
+        android:background="@drawable/edit_text_background"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
         />
 
     <Button
@@ -22,7 +25,6 @@
         android:layout_below="@id/EditTextMonHoc"
         android:layout_marginLeft="15dp"
         android:background="@drawable/custom_button"
-        android:backgroundTint="@color/red"
         android:text="THÊM" />
     <Button
         android:id="@+id/ButtonCapNhat"

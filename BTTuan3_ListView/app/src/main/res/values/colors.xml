@@ -10,5 +10,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#ff0000</color>
+    <color name="mediumturquoise">#48d1cc</color>
 
 </resources>

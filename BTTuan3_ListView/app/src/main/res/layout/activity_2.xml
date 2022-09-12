@@ -4,8 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bground"
     tools:context=".Activity_2">
-
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Màn hình chi tiết"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        />
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent(getApplicationContext(),Activity_2.class);
                 intent.putExtra("name",str);
                 startActivity(intent);
-
+                lvMonHoc.setSelector(R.color.mediumturquoise);
                 return false;
             }
         });
